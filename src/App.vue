@@ -74,59 +74,84 @@ const events = ref([
     description: 'Cognition Labs introduced Devin, the first AI software engineer capable of autonomously solving complex programming tasks.'
   },
   {
+    date: '2024/03',
+    title: 'Google Gemini 1.5',
+    description: 'Google launched Gemini 1.5, featuring significantly improved performance and a million-token context window.'
+  },
+  {
+    date: '2024/03',
+    title: 'Nvidia Blackwell Launch',
+    description: 'Nvidia announced its next-gen Blackwell AI architecture, promising 40x performance increase over previous generation.'
+  },
+  {
+    date: '2024/03',
+    title: 'Claude Web Search',
+    description: 'Anthropic added real-time web search capabilities to Claude, enabling it to access current information.'
+  },
+  {
+    date: '2024/03',
+    title: 'Google Real-time Video',
+    description: 'Google rolled out real-time video and screen analysis features for Gemini, enabling dynamic interaction with visual content.'
+  },
+  {
     date: '2024/04',
-    title: 'GPT-5 Release',
-    description: 'OpenAI released GPT-5, featuring unprecedented reasoning capabilities and improved multimodal understanding.'
+    title: 'Adobe AI Agents',
+    description: 'Adobe launched AI agents capable of creating personalized websites and generating PowerPoint presentations from raw data.'
   },
   {
     date: '2024/05',
-    title: 'Meta AI Assistant',
-    description: 'Meta launched its advanced AI assistant integrated across all its platforms, featuring real-time translation and content generation.'
+    title: 'BBB Bionode Launch',
+    description: 'BBB unveiled Bionode, a revolutionary computing platform using lab-grown neurons for AI applications.'
   },
   {
     date: '2024/06',
-    title: 'Google Gemini 2.0',
-    description: 'Google released Gemini 2.0 with enhanced multimodal capabilities and improved reasoning across languages.'
+    title: 'Hugging Face Blueprint',
+    description: 'Hugging Face submitted an open-source AI blueprint to the White House, challenging Big Tech dominance.'
+  },
+  {
+    date: '2024/07',
+    title: 'Microsoft-Google AI Deal',
+    description: 'Microsoft acquired Wiz for $32B, signaling major investment in AI-driven cloud security.'
   },
   {
     date: '2024/08',
-    title: 'Claude 4 Launch',
-    description: 'Anthropic released Claude 4, featuring breakthrough capabilities in scientific research and complex problem-solving.'
+    title: 'Perplexity AI Growth',
+    description: 'Perplexity AI emerged as a major competitor to Google Search with advanced AI capabilities.'
   },
   {
     date: '2024/09',
-    title: 'Llama 3 Release',
-    description: 'Meta released Llama 3, a more powerful open-source model with improved performance across various tasks.'
+    title: 'Apple Siri Overhaul',
+    description: 'Apple restructured Siri leadership and development to focus on advanced AI integration.'
   },
   {
     date: '2024/10',
-    title: 'Microsoft AI OS',
-    description: 'Microsoft launched an AI-first operating system, integrating advanced AI capabilities at the system level.'
+    title: 'Meta AI Translation',
+    description: 'Meta achieved universal translation across all major languages with cultural context understanding.'
   },
   {
     date: '2024/11',
-    title: 'Apple AI Platform',
-    description: 'Apple introduced its comprehensive AI platform for iOS and macOS, featuring on-device AI processing.'
+    title: 'Tesla FSD Breakthrough',
+    description: 'Tesla achieved significant breakthroughs in Full Self-Driving with advanced AI perception.'
   },
   {
     date: '2024/12',
-    title: 'Sora 2.0',
-    description: 'OpenAI released Sora 2.0 with extended video duration and enhanced control over generated content.'
+    title: 'Amazon AGI Progress',
+    description: 'Amazon announced major progress in AGI research with novel cognitive architectures.'
   },
   {
     date: '2025/01',
-    title: 'Anthropic AGI Research',
-    description: 'Anthropic announced breakthrough research in artificial general intelligence, demonstrating novel cognitive architectures.'
+    title: 'OpenAI GPT-5',
+    description: 'OpenAI released GPT-5 with unprecedented reasoning capabilities and improved multimodal understanding.'
   },
   {
     date: '2025/02',
-    title: 'Google Quantum AI',
-    description: 'Google achieved quantum advantage in AI training, significantly reducing model training time and energy consumption.'
+    title: 'Google Gemini 3.0',
+    description: 'Google launched Gemini 3.0 with enhanced multimodal capabilities and near-human level reasoning.'
   },
   {
     date: '2025/03',
-    title: 'OpenAI Neural Interface',
-    description: 'OpenAI demonstrated direct neural interface technology for AI interaction, marking a milestone in human-AI integration.'
+    title: 'Anthropic Claude 4',
+    description: 'Anthropic released Claude 4 with breakthrough capabilities in scientific research and complex problem-solving.'
   }
 ])
 </script>
