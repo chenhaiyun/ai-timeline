@@ -44,6 +44,11 @@ const events = ref([
     description: 'Google released the Gemini multimodal AI model, surpassing GPT-4 in multiple benchmark tests.'
   },
   {
+    date: '2023/12',
+    title: 'DeepSeek Launch',
+    description: 'DeepSeek released its first series of open-source models, showing impressive performance in coding and general tasks.'
+  },
+  {
     date: '2024/01',
     title: 'Claude 3 Family Launch',
     description: 'Anthropic released the Claude 3 family of models (Haiku, Sonnet, and Opus), with significant improvements in capabilities and performance.'
@@ -62,6 +67,11 @@ const events = ref([
     date: '2024/02',
     title: 'Sora Announcement',
     description: 'OpenAI unveiled Sora, a text-to-video model capable of generating highly realistic videos up to 60 seconds long.'
+  },
+  {
+    date: '2024/02',
+    title: 'DeepSeek-MoE Release',
+    description: 'DeepSeek released its MoE (Mixture of Experts) models, achieving state-of-the-art performance while maintaining efficiency.'
   },
   {
     date: '2024/03',
@@ -92,6 +102,11 @@ const events = ref([
     date: '2024/03',
     title: 'Google Real-time Video',
     description: 'Google rolled out real-time video and screen analysis features for Gemini, enabling dynamic interaction with visual content.'
+  },
+  {
+    date: '2024/03',
+    title: 'MCP Platform Launch',
+    description: 'Meta released Model Composition Platform (MCP), enabling efficient composition and deployment of large language models.'
   },
   {
     date: '2024/04',
