@@ -42,6 +42,46 @@ const events = ref([
     date: '2023/12',
     title: 'Gemini Release',
     description: 'Google released the Gemini multimodal AI model, surpassing GPT-4 in multiple benchmark tests.'
+  },
+  {
+    date: '2024/01',
+    title: 'Claude 3 Family Launch',
+    description: 'Anthropic released the Claude 3 family of models (Haiku, Sonnet, and Opus), with significant improvements in capabilities and performance.'
+  },
+  {
+    date: '2024/01',
+    title: 'Mistral Large Release',
+    description: 'Mistral AI released Mistral Large, a powerful open-source model challenging the capabilities of proprietary models.'
+  },
+  {
+    date: '2024/02',
+    title: 'Gemma Release',
+    description: 'Google released Gemma, a family of lightweight open-source models designed for responsible AI development.'
+  },
+  {
+    date: '2024/02',
+    title: 'Sora Announcement',
+    description: 'OpenAI unveiled Sora, a text-to-video model capable of generating highly realistic videos up to 60 seconds long.'
+  },
+  {
+    date: '2024/03',
+    title: 'GPT-4 Turbo Updates',
+    description: 'OpenAI released GPT-4 Turbo with improved performance, reduced costs, and knowledge cutoff date extended to December 2023.'
+  },
+  {
+    date: '2024/03',
+    title: 'Devin AI Developer',
+    description: 'Cognition Labs introduced Devin, the first AI software engineer capable of autonomously solving complex programming tasks.'
+  },
+  {
+    date: '2024/03',
+    title: 'Google Gemini 1.5',
+    description: 'Google launched Gemini 1.5, featuring significantly improved performance and a million-token context window.'
+  },
+  {
+    date: '2024/03',
+    title: 'Meta SEER',
+    description: 'Meta announced SEER, a powerful computer vision model trained on billions of public images.'
   }
 ])
 </script>
@@ -49,7 +89,7 @@ const events = ref([
 <template>
   <div class="container">
     <h1 class="title animate__animated animate__fadeIn">AI Development Timeline</h1>
-    <h2 class="subtitle animate__animated animate__fadeIn">Major Milestones 2022-2023</h2>
+    <h2 class="subtitle animate__animated animate__fadeIn">Major Milestones 2022-2024</h2>
     
     <div class="timeline">
       <div v-for="(event, index) in events" 
