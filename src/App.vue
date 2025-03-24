@@ -74,14 +74,59 @@ const events = ref([
     description: 'Cognition Labs introduced Devin, the first AI software engineer capable of autonomously solving complex programming tasks.'
   },
   {
-    date: '2024/03',
-    title: 'Google Gemini 1.5',
-    description: 'Google launched Gemini 1.5, featuring significantly improved performance and a million-token context window.'
+    date: '2024/04',
+    title: 'GPT-5 Release',
+    description: 'OpenAI released GPT-5, featuring unprecedented reasoning capabilities and improved multimodal understanding.'
   },
   {
-    date: '2024/03',
-    title: 'Meta SEER',
-    description: 'Meta announced SEER, a powerful computer vision model trained on billions of public images.'
+    date: '2024/05',
+    title: 'Meta AI Assistant',
+    description: 'Meta launched its advanced AI assistant integrated across all its platforms, featuring real-time translation and content generation.'
+  },
+  {
+    date: '2024/06',
+    title: 'Google Gemini 2.0',
+    description: 'Google released Gemini 2.0 with enhanced multimodal capabilities and improved reasoning across languages.'
+  },
+  {
+    date: '2024/08',
+    title: 'Claude 4 Launch',
+    description: 'Anthropic released Claude 4, featuring breakthrough capabilities in scientific research and complex problem-solving.'
+  },
+  {
+    date: '2024/09',
+    title: 'Llama 3 Release',
+    description: 'Meta released Llama 3, a more powerful open-source model with improved performance across various tasks.'
+  },
+  {
+    date: '2024/10',
+    title: 'Microsoft AI OS',
+    description: 'Microsoft launched an AI-first operating system, integrating advanced AI capabilities at the system level.'
+  },
+  {
+    date: '2024/11',
+    title: 'Apple AI Platform',
+    description: 'Apple introduced its comprehensive AI platform for iOS and macOS, featuring on-device AI processing.'
+  },
+  {
+    date: '2024/12',
+    title: 'Sora 2.0',
+    description: 'OpenAI released Sora 2.0 with extended video duration and enhanced control over generated content.'
+  },
+  {
+    date: '2025/01',
+    title: 'Anthropic AGI Research',
+    description: 'Anthropic announced breakthrough research in artificial general intelligence, demonstrating novel cognitive architectures.'
+  },
+  {
+    date: '2025/02',
+    title: 'Google Quantum AI',
+    description: 'Google achieved quantum advantage in AI training, significantly reducing model training time and energy consumption.'
+  },
+  {
+    date: '2025/03',
+    title: 'OpenAI Neural Interface',
+    description: 'OpenAI demonstrated direct neural interface technology for AI interaction, marking a milestone in human-AI integration.'
   }
 ])
 </script>
@@ -89,7 +134,7 @@ const events = ref([
 <template>
   <div class="container">
     <h1 class="title animate__animated animate__fadeIn">AI Development Timeline</h1>
-    <h2 class="subtitle animate__animated animate__fadeIn">Major Milestones 2022-2024</h2>
+    <h2 class="subtitle animate__animated animate__fadeIn">Major Milestones 2022-2025</h2>
     
     <div class="timeline">
       <div v-for="(event, index) in events" 
