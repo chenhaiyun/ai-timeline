@@ -45,8 +45,8 @@ const events = ref([
   },
   {
     date: '2023/12',
-    title: 'DeepSeek Launch',
-    description: 'DeepSeek released its first series of open-source models, showing impressive performance in coding and general tasks.'
+    title: 'DeepSeek R1 Launch',
+    description: 'DeepSeek released R1, a revolutionary multimodal model capable of understanding and generating images, text, and code with exceptional performance.'
   },
   {
     date: '2024/01',
@@ -68,11 +68,7 @@ const events = ref([
     title: 'Sora Announcement',
     description: 'OpenAI unveiled Sora, a text-to-video model capable of generating highly realistic videos up to 60 seconds long.'
   },
-  {
-    date: '2024/02',
-    title: 'DeepSeek-MoE Release',
-    description: 'DeepSeek released its MoE (Mixture of Experts) models, achieving state-of-the-art performance while maintaining efficiency.'
-  },
+
   {
     date: '2024/03',
     title: 'GPT-4 Turbo Updates',
@@ -105,8 +101,8 @@ const events = ref([
   },
   {
     date: '2024/03',
-    title: 'MCP Platform Launch',
-    description: 'Meta released Model Composition Platform (MCP), enabling efficient composition and deployment of large language models.'
+    title: 'Model Context Protocol',
+    description: 'Meta introduced Model Context Protocol (MCP), a groundbreaking standard for efficient context handling in large language models.'
   },
   {
     date: '2024/04',
